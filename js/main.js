@@ -114,6 +114,11 @@
             }
         }
     });
+
+    //Modal do pedido
+    $(document).ready(function () {
+        $(".button-wrapper2").load("modal_pedido.html")
+    });
     
 })(jQuery);
 
