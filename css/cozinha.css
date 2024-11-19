@@ -1,0 +1,17 @@
+body {
+    padding: 20px;
+  }
+  .mesa-header {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    padding: 10px;
+  }
+  .pedido-row {
+    border-top: 1px solid #ddd;
+  }
+  .mesa-section {
+    margin-bottom: 20px;
+  }
+  .status-btns button {
+    margin-right: 5px;
+  }
