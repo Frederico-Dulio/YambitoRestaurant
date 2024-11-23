@@ -1,17 +1,91 @@
 body {
-    padding: 20px;
-  }
-  .mesa-header {
-    background-color: #f8f9fa;
-    font-weight: bold;
-    padding: 10px;
-  }
-  .pedido-row {
-    border-top: 1px solid #ddd;
-  }
-  .mesa-section {
-    margin-bottom: 20px;
-  }
-  .status-btns button {
-    margin-right: 5px;
-  }
+  padding: 20px;
+}
+
+.mesa-header {
+  background-color: #f8f9fa;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.pedido-row {
+  border-top: 1px solid #ddd;
+}
+
+.mesa-section {
+  margin-bottom: 20px;
+}
+
+.status-btns button {
+  margin-right: 5px;
+}
+
+thead {
+  background-color: #f7f7f7;
+}
+
+.btnn {
+  background-color: transparent;
+  border: none;
+}
+
+.notification-list {
+  max-height: 300px;
+  overflow-y: auto;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.notification-item {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.notification-item:last-child {
+  border-bottom: none;
+}
+
+.notification-item strong {
+  color: #ff6a00;
+}
+
+.modal-content {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.modal-header {
+  background: #FEA116;
+  color: white;
+}
+
+.modal-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.form-label {
+  font-weight: bold;
+  color: #333;
+}
+
+.form-control {
+  border-radius: 10px;
+}
+
+.preview-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.preview-image {
+  max-width: 100%;
+  max-height: 200px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  display: none;
+  /* Oculta a imagem até que uma seja carregada */
+}

@@ -1,0 +1,77 @@
+<link rel="stylesheet" href="css/modalPedido.css">
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+  aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="pedidoModalLabel">Pedidos</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- Informações gerais -->
+        <div class="card">
+          <h5 class="card-header">Número da Mesa</h5>
+          <div class="card-body">
+            <div class="col-sm-2">
+              <input type="number" id="mesaNumero" class="form-control form-control-sm" placeholder="Mesa">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tabela de pedidos -->
+      <div class="card">
+        <div class="card-body">
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th>Prato</th>
+                <th>Preço</th>
+                <th>Quantidade</th>
+                <th>Subtotal</th>
+                <th>Observações</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Frango Assado</td>
+                <td>2500.00 AKZ</td>
+                <td>2</td>
+                <td>5000.00 AKZ</td>
+                <td>Sem cebola</td>
+              </tr>
+              <tr>
+                <td>Sopa de Legumes</td>
+                <td>1500.00 AKZ</td>
+                <td>1</td>
+                <td>1500.00 AKZ</td>
+                <td>Com mais cenoura</td>
+              </tr>
+              <tr>
+                <td>Bife com Batatas</td>
+                <td>3000.00 AKZ</td>
+                <td>1</td>
+                <td>3000.00 AKZ</td>
+                <td>Sem sal grosso</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+          <div class="text-end total-container px-4">
+            Total: 9500.00 AKZ
+          </div>
+        </div>
+        <div class="modal-footer d-flex justify-content-between">
+          <button type="button" class="btn btn-secondary rounded-pill" data-bs-dismiss="modal">Voltar</button>
+          <button type="button" class="btn btn-success rounded-pill">Enviar para Cozinha</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
